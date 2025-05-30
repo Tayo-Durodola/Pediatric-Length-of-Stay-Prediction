@@ -8,14 +8,12 @@ This project develops and tests machine learning models to predict whether child
 
 * **Source:** The dataset is sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/938/regensburg+pediatric+appendicitis) and is publicly available via [Zenodo (DOI: 10.5281/zenodo.7669442)](https://doi.org/10.5281/zenodo.7669442). It was collected retrospectively from 782 pediatric patients admitted with abdominal pain at Children’s Hospital St. Hedwig in Regensburg, Germany, between 2016 and 2021.
 * **Content:** Includes variables such as age, weight, clinical signs (e.g., fever, tenderness), laboratory results (e.g., white blood cell count, C-reactive protein), and ultrasound findings.
-* **File:** The dataset is expected to be an Excel file named `Pediatric Appendicitis.xlsx - All cases.csv`, located in the same directory as the script.
 * **Target Variable:** Length of stay (LOS), converted into a binary variable (`Long_Stay_Binary`) based on a median threshold of approximately 4 days.
 
 ### Code Information
 
 * **Language:** Python (version 3.x)
 * **Files:** A single Python script containing all code for data loading, preprocessing, model development, evaluation, and visualization.
-* **Output:** Generates confusion matrix images (`confusion_matrix_[model_name].png`) for each evaluated model and a distribution plot of the length of stay categories (`length_of_stay_distribution.png`). Performance metrics (Accuracy, Precision, Recall, F1-Score) are printed to the console.
 
 ### Usage Instructions
 
@@ -46,7 +44,7 @@ This project develops and tests machine learning models to predict whether child
 
 ### Citations
 
-This dataset and research build on work by Marcinkevičs et al. (2021), available via the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/938/regensburg+pediatric+appendicitis) and [Zenodo](https://doi.org/10.5281/zenodo.7669442), which provided the original pediatric appendicitis data.
+This dataset and research build on work by Marcinkevičs et al. (2023), available via the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/938/regensburg+pediatric+appendicitis) and [Zenodo](https://doi.org/10.5281/zenodo.7669442), which provided the original pediatric appendicitis data.
 
 ### License & Contribution Guidelines
 
